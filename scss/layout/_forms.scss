@@ -1,0 +1,31 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    &-formulario {
+        font-size: 16px;
+        &-boton {
+            max-width: fit-content;
+            margin-left: auto;
+        }
+        &-label {
+            margin: 5px;
+            display: block;
+            font-size: 20px;
+        }
+        &-input {
+            border: 1px solid;
+            padding: 5px;
+            font-size: 15px;
+            background-color: rgba(255, 30, 248, 0.418);
+        }
+    }
+    .-mensaje {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+
