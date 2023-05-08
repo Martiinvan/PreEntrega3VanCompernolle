@@ -76,8 +76,13 @@ header h1:hover {
   margin: 5px;
   font-size: 20px;
 }
-.box-footer ul li {
+.box-footer a {
   gap: 10px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
 }
 
 .below {
