@@ -9,9 +9,13 @@
         margin: 5px;
         font-size: 20px;
     }
-    ul li {
+    a {
         gap: 10px;
     }
+}
+.lista {
+    display: flex;
+    flex-direction: column;
 }
 .below {
     border-top: 1px solid;
